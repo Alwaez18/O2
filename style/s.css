@@ -1,0 +1,28 @@
+<<<<<<< HEAD
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+.container
+{
+    width: 100%;
+    padding: 20px 50px;
+}
+=======
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+.container
+{
+    width: 100%;
+    padding: 20px 50px;
+}
+>>>>>>> 6529ecb988118fd193566e702561fb8184c358da
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');

@@ -1,0 +1,34 @@
+.header-bottom__button
+{
+    padding: 15px;
+    font-size: 24px;
+    color: black;
+    background-color: transparent;
+    align-items: center;
+    border: none;
+    display: flex;
+    gap: 12px;
+    transition: 0.3s all ease;
+    cursor: pointer;
+}
+.header-bottom__flex
+{
+    display: flex;
+    justify-content: space-around;
+}
+.header-bottom__button:first-child
+{
+    background-color: red;
+    color: white;
+}
+.header-bottom__button:first-child:hover
+{
+    color: black;
+    background-color: transparent;
+    scale: 1.1;
+}
+.header-bottom__button:hover:not(:first-child)
+{
+    color: red;
+    scale: 1.1;
+}

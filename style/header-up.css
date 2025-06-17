@@ -1,0 +1,75 @@
+<<<<<<< HEAD
+a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+}
+
+.header-up-nav
+{
+    display: flex;
+    gap: 30px;
+    margin-left: 300px;
+}
+.header-up-location
+{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+.header-up-nav__link{ transition: all 0.3s ease; }
+.header-up-location__link { transition: all 0.3s ease; }
+.header-up-nav__link:hover{ scale: 1.1; }
+.header-up-location__link:hover{ scale: 1.1; }
+
+.header-up__text
+{
+    color: gray;
+    opacity: 70%;
+}
+.header-up
+{
+    display: flex;
+    justify-content: space-between;
+}
+.flex{ display: flex; }
+
+=======
+a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+}
+
+.header-up-nav
+{
+    display: flex;
+    gap: 30px;
+    margin-left: 300px;
+}
+.header-up-location
+{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+.header-up-nav__link{ transition: all 0.3s ease; }
+.header-up-location__link { transition: all 0.3s ease; }
+.header-up-nav__link:hover{ scale: 1.1; }
+.header-up-location__link:hover{ scale: 1.1; }
+
+.header-up__text
+{
+    color: gray;
+    opacity: 70%;
+}
+.header-up
+{
+    display: flex;
+    justify-content: space-between;
+}
+.flex{ display: flex; }
+
+>>>>>>> 6529ecb988118fd193566e702561fb8184c358da
