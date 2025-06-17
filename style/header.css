@@ -1,51 +1,54 @@
-.header
+
+.header-main
 {
-    margin-top: 30px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-}
-.header-nav
-{
-    padding:  25px 0px;
-    display: flex;
-    gap: 30px;
-    justify-content: end;
-}
-.header__button
-{
-    display: flex;
     align-items: center;
-    gap: 10px;
-    padding: 10px;
-    transition: 0.3s all ease;
-    font-size: 24px;
-    border-radius: 30px;
+    padding: 15px 0;
 }
-.header__button:hover
+
+.header-main__search
 {
-    background-color: rgb(238, 236, 236);
-    scale: 1.1;
-}
-input
-{
-    margin-right: 130px;
-    padding: 26px 240px 26px 30px;
-}
-.header-input__button
-{
-    position: absolute;
-    right: 50px;
-    padding: 21px 29px;
-    background-color: red;
-    transition: all 0.3s ease;
-}
-.header-input__button:hover{ background-color: black; }
-.header-input
-{
-    position: relative;
     display: flex;
     align-items: center;
 }
 
-.header__logo{ height: 30px; }
+.header-main__search-input
+{
+    padding: 20px 200px 20px 40px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.header-main__search-button
+{
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    margin-left: -30px;
+    padding: 15px 40px;
+    border-radius: 10px;
+}
+
+.header-main__actions
+{
+    display: flex;
+    gap: 25px;
+}
+
+.header-main__action
+{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: all 0.3s ease;
+}
+
+.header-main__action:hover {transform: scale(1.05);}
+.header-main__action-counter
+{
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+}

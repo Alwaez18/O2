@@ -1,34 +1,37 @@
+
+.header-bottom
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-top: 1px solid #eee;
+}
+
 .header-bottom__button
 {
-    padding: 15px;
-    font-size: 24px;
-    color: black;
-    background-color: transparent;
+    display: flex;
     align-items: center;
+    gap: 5px;
+    background: none;
     border: none;
-    display: flex;
-    gap: 12px;
-    transition: 0.3s all ease;
     cursor: pointer;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
 }
-.header-bottom__flex
+
+.header-bottom__button:hover { transform: scale(1.05); }
+
+.header-bottom__button--catalog
 {
-    display: flex;
-    justify-content: space-around;
-}
-.header-bottom__button:first-child
-{
-    background-color: red;
+    background-color: #ff0000;
     color: white;
+    border-radius: 4px;
+    padding: 15px;
 }
-.header-bottom__button:first-child:hover
+
+.header-bottom__button--special
 {
-    color: black;
-    background-color: transparent;
-    scale: 1.1;
-}
-.header-bottom__button:hover:not(:first-child)
-{
-    color: red;
-    scale: 1.1;
+    background-color: #ffcccc;
+    border-radius: 4px;
+    padding: 15px;
 }
